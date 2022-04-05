@@ -1,0 +1,15 @@
+plugins {
+    id 'java'
+}
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+dependencies {
+    implementation "com.github.ipfs:java-ipfs-http-client:v1.3.3",
+        "org.mnode.ical4j:ical4j:3.2.1"
+}
